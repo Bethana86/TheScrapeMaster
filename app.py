@@ -1223,7 +1223,7 @@ with App_sidebar:
     #### navigation menu
     Main_menu = option_menu(
         menu_title="",
-        options=["Web Scraper", "App Info"],
+        options=["Web Scraper"],
         default_index=0,
         icons=["browser-edge","person-circle"],
         key="Navigation Menu"
@@ -1233,7 +1233,7 @@ with App_sidebar:
 
     project_link = """
         <a 
-            href="https://github.com/Nishant43S/Web-Data-Scraper.git"
+            href="https://github.com/Bethana86/UIweb-scraper.git"
             style="text-decoration: none;"
             target="_blank">
             <button class="btn">Project link</button>
