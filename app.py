@@ -1200,7 +1200,7 @@ class AdvanceScraper(WebScraper):
        
 ### page setting 
 st.set_page_config(
-    page_title="web scraper",
+    page_title="UI Web Scraper",
     layout="wide",
     page_icon="🕸️",
     initial_sidebar_state="collapsed"
@@ -1217,7 +1217,7 @@ App_sidebar = st.sidebar
 with App_sidebar:
     st.text("")
     st.text("")
-    st.subheader("Web Scraper 🌐")
+    st.subheader("UI Web Scraper")
     st.text("")
 
     #### navigation menu
