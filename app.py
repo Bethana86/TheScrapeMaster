@@ -1200,7 +1200,7 @@ class AdvanceScraper(WebScraper):
        
 ### page setting 
 st.set_page_config(
-    page_title="UI Web Scraper",
+    page_title="ScrapeMaster",
     layout="wide",
     page_icon="🕸️",
     initial_sidebar_state="collapsed"
@@ -1217,7 +1217,7 @@ App_sidebar = st.sidebar
 with App_sidebar:
     st.text("")
     st.text("")
-    st.subheader("UI Web Scraper")
+    st.subheader("ScrapeMaster")
     st.text("")
  #### navigation menu
     Main_menu = option_menu(
@@ -1306,7 +1306,7 @@ if Main_menu == "Web Scraper":
 
         ### app heading
         App_Heading = colored_header(
-            label="ALL IN ONE WEB SCRAPER",
+            label="ScrapeMaster",
             description="Scrape Website Data",
             color_name="violet-70"
         )
