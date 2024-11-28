@@ -1205,13 +1205,6 @@ st.set_page_config(
     page_icon="🕸️",
     initial_sidebar_state="collapsed"
 )
-st.code("""
-[theme]
-primaryColor="#5a0c0c"
-backgroundColor="#00060c"
-secondaryBackgroundColor="#2635bb"
-textColor="#f7f1f1"
-""", language="ini")
 
 ### app main css
 if __name__=="__main__":
