@@ -1307,7 +1307,7 @@ if Main_menu == "Web Scraper":
         ### app heading
         App_Heading = colored_header(
             label="ScrapeMaster",
-            description="Scrape Website Data",
+            description="Scrape the Website Data with multiple options",
             color_name="violet-70"
         )
 
