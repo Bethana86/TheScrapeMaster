@@ -579,13 +579,7 @@ class WebScraper:
 
                         self.link_name.append(self.anchor_text)
                         self.link_url.append(self.href)
-st.code("""
-[theme]
-primaryColor="#5a0c0c"
-backgroundColor="#00060c"
-secondaryBackgroundColor="#2635bb"
-textColor="#f7f1f1"
-""", language="ini")
+
                 st.markdown(
                     f"""
                     <span>
@@ -1211,6 +1205,13 @@ st.set_page_config(
     page_icon="🕸️",
     initial_sidebar_state="collapsed"
 )
+st.code("""
+[theme]
+primaryColor="#5a0c0c"
+backgroundColor="#00060c"
+secondaryBackgroundColor="#2635bb"
+textColor="#f7f1f1"
+""", language="ini")
 
 ### app main css
 if __name__=="__main__":
