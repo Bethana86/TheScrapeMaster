@@ -1219,7 +1219,34 @@ with App_sidebar:
     st.text("")
     st.subheader("UI Web Scraper")
     st.text("")
+ #### navigation menu
+    Main_menu = option_menu(
+        menu_title="",
+        options=["Web Scraper"],
+        default_index=0,
+        icons=["browser-edge","person-circle"],
+        key="Navigation Menu"
+    )
 
+    st.text("")
+
+    project_link = """
+        <a 
+            href="https://github.com/Bethana86/UIweb-scraper.git"
+            style="text-decoration: none;"
+            target="_blank">
+            <button class="btn">Project link</button>
+        </a>
+    """
+
+    ### project link button
+    st.markdown(
+        project_link,
+        unsafe_allow_html=True
+    )
+    
+    if __name__=="__main__":
+        insert_css("cssfiles/project-link-btn.css")
     
 # Function to zip the downloaded website folder
 def zip_directory(folder_path, zip_path):
