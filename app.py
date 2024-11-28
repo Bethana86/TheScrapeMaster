@@ -1306,14 +1306,14 @@ if Main_menu == "Web Scraper":
 
         ### app heading
         App_Heading = colored_header(
-            label="Web Scraper📑",
-            description="Scrap Website Data",
+            label="ALL IN ONE WEB SCRAPER",
+            description="Scrape Website Data",
             color_name="violet-70"
         )
 
         ### taking user input
         Url_input = st.text_input(
-            label="Paste Url",
+            label="PASTE THE LINK / URL:",
             label_visibility="visible",
             placeholder="https://www.example.com",
             type="default"
@@ -1330,7 +1330,7 @@ if Main_menu == "Web Scraper":
 
             ### scrap button
             Scrap_website_btn = st.button(
-                label="Scrap Website",
+                label="SCRAPE THE LINK",
                 key="Scrap Button"
             )
         
@@ -1338,10 +1338,10 @@ if Main_menu == "Web Scraper":
 
             ### toggle button for switching advance mode
             Advance_mode = st.toggle(
-                label="Advance Mode",
+                label="Additional Settings",
                 label_visibility="visible",
                 value=False,
-                key="Advance mode"
+                key="Additional Settings"
             )
 
         if Advance_mode:
